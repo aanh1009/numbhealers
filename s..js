@@ -191,12 +191,90 @@ function xcalculate (){
         let a1 = a%10;
         a= parseInt(a/10) + a1;
     }
-    info5 ="";
+    var info5 ="";
+    var info6 ="";
+    var info7="";
+    var info8 ="";
     if (a==1){
-        
+        info5 ="Individuals with a Birth Number of one have a strong desire to be in the spotlight and take on leadership roles. They exhibit a masculine energy and can come across as confident, even bordering on arrogance. They enjoy being the center of attention and thrive in situations where they can be the protagonist, whether it's on screen or in the workplace. Ambition drives those with a Birth Number of one, and they strive to reach the top. They possess a healthy ego, sometimes leaning toward egocentricity. To achieve their goals, they may resort to childlike behaviors, including throwing tantrums to attract attention. They are generous with their loved ones and don't mind picking up the tab while dining out, as it allows them to make a grand impression.";
+        info6="When it comes to protecting their loved ones, individuals with a Birth Number of one are fierce and will confront any threat or opposition. In the realm of sexuality, they can be serious but also possess a remarkable ability for creativity and exploration once they let their guard down. Those with a Birth Number of one have a connection with individuals born under the astrological sign of Leo, sharing similar traits and characteristics. Additionally, Sunday holds special significance for them as it is considered their best day of the week."
     }
-
+    if (a==2){
+        info5 ="Individuals with a Birth Number of two have distinct characteristics that set them apart. They are not as assertive as Number Ones, but they possess a quiet determination that allows them to achieve their goals. Their tactile nature makes them enjoy both giving and receiving affectionate caresses. Male Number Twos have a deep appreciation for the female body, while female Number Twos desire a masculine partner who can sweep them off their feet.";
+        info6="Initially, Number Twos may come across as shy, but once you get to know them, you'll find them worth the effort. While they appreciate tenderness, they also don't mind a touch of domination. However, they can be prone to moodiness, and it's important to be mindful of their emotional state. They should avoid excessive alcohol consumption during melancholic or depressed times.";
+        info7="When it comes to the bedroom, a dimly lit atmosphere enhances their experience of imaginative passion";
+    }
+    if (a==3){
+        info5 ="Individuals with a Birth Number of three are often regarded as charismatic smooth-talkers. They have a tendency to embellish stories, engage in exaggeration, and add a touch of embroidery to their narratives. These individuals have a strong affinity for travel, foreign places, and different cultures. Their fascination with exotic locations never wanes, and they enjoy sharing their experiences with others.";
+        info6 ="Threes thrive in the limelight and relish being the life of the party. They possess a natural talent for captivating an audience and love performing for anyone and everyone, especially when they've had a few drinks. Considered highly sexual and flirtatious, they are often seen as competitive, which can lead to envy and the development of enemies who are envious of their perceived successes. Defeat or humiliation is not easily tolerated by individuals with a Birth Number of three.";
+        info7="These individuals take pride in their appearance and possess a good wardrobe, always dressing to impress. They are witty and intelligent conversationalists, skilled in storytelling and weaving engaging tales. In matters of the bedroom, it's important to consider their tendency for exaggeration, especially if alcohol is involved. However, one noteworthy physical attribute of people with this number is their cute little bums."
+    }
+    if (a==4){
+        info5 ="Individuals with a Birth Number of four possess exceptional listening skills and a deep understanding of the fears and phobias that people confide in them. This innate ability makes them well-suited for roles as psychologists, counselors, and compassionate companions. As they mature, they develop self-confidence, gain wisdom, and cultivate a visionary perspective. Fours often possess remarkable insight and intuition that sets them apart. They have a knack for being ahead of their time and can be seen as revolutionaries in their own right.";
+        info6 ="Fours excel as teachers, sharing their wealth of experience and practical knowledge with others. People find comfort and ease in their presence, drawn to their magnetic charm and unique approach to life. They naturally attract individuals facing challenges and dilemmas, much like flowers attract bees. Fours are often relied upon to provide solutions and resolutions in these situations. Sunday holds special significance for them, serving as their most favorable day of the week. Additionally, Aquarians frequently enter their lives, leaving an impact or influence from time to time.";
+    }
+    if (a==5){
+        info5 ="Individuals with a Birth Number of five have an insatiable desire for variety in both their work and play. They dislike being tied down to any particular job or person, always seeking new and exciting ventures. This inclination can lead them to come up with innovative ideas for generating income, sometimes even venturing into questionable or fraudulent territories. Fives have a penchant for impressing others and possess wit and charm, making them accomplished conversationalists. However, they can also exhibit a con artist-like nature on occasion.";
+        info6 ="Those with a Birth Number of five strongly embrace the saying 'cleanliness is next to godliness.' They have a penchant for orderliness and organization, ensuring that everything has its place, including you! Restlessness is a defining characteristic of fives. They love to travel extensively, exploring different places and meeting a multitude of people along the way. While they may form numerous lucrative connections, long-term relationships tend to be less prevalent in their lives.";
+        info7 = "Individuals with a Birth Number of five feel a connection with individuals born under the zodiac signs of Gemini or Virgo, finding common ground with their traits and characteristics. Wednesday holds special significance for them as their most favorable day of the week."
+    }
+    if (a==6){
+        info5 ="Individuals with a Birth Number of six possess a charm and charisma that allows them to thrive in any environment, much like a blooming rose. They have an inherent need for attention and thrive when they receive it abundantly. Some may perceive them as charming, while others may label them as flirtatious. These individuals possess excellent communication skills and have a knack for talking their way into and out of any situation.";
+        info6 ="Security, balance, and harmony are significant aspects associated with the Birth Number six. It is crucial for individuals with this number to seek out and cultivate these elements in their lives. They place great importance on having a secure job, stable relationships, and a harmonious home life for their overall well-being.";
+        info7 ="Sixes are known for being sensual, sentimental, and romantic. However, they often struggle with issues of self-worth, self-esteem, and self-confidence. When they are financially secure, they can be exceptional lovers, expressing considerate and kind traits. On the other hand, when burdened by debt or financial struggles, their behavior can be challenging and difficult to handle. Friday is considered their best day of the week, holding positive energies for them. They are associated with the morning and evening star of Venus and find common ground with the zodiac signs of Taurus and Libra."
+    }
+    if (a==7){
+        info5 ="If your Birth Number is seven, you have a strong inclination towards debating and discussing the moral aspects of the world. You possess a genuine desire to assist and support those who are less fortunate than you. Spiritually, you have a philosophical nature and are drawn to music and art, which can lead you to explore the profound depths of your psyche or the elevated heights of spirituality. Your compassionate, sensitive, and perceptive nature makes you deeply affected by thoughtless actions or careless words from others.";
+        info6 ="Individuals with a Birth Number of seven exude refinement, gentleness, and an air of vagueness. They are dreamers, often indulging in vivid imaginings and possessing an allure of glamour, charisma, and magnetism. However, it's important to note that a tendency towards alcoholism or drug addiction is not uncommon among those born with this number. When in a balanced state, a seven is an excellent analyst and a seeker of truth. However, when off-balance, they can become skeptical, critical, and may struggle with an inferiority complex.";
+        info7 ="People influenced by the number seven are likely to encounter individuals born under the sign of Pisces, who may enter or have a significant impact on their lives. Monday is considered the best day of the week for sevens, as it provides an ideal time for meditation, contemplation, and self-reflection."
+    }
+    if (a==8){
+        info5 ="The Birth Number eight can be deceiving at first glance. While individuals with this number may appear conservative, prim, and proper, they have another side to their personality. In their youth, they often exhibit a maturity beyond their years, but as they grow more confident, they seem to defy aging and appear younger than their actual age.";
+        info6 ="When it comes to sexuality, those with a Birth Number of eight embody a combination of lust and trust. Once they have gained confidence, there are no limits to what they can achieve in fulfilling their desires. They are highly focused on their careers, driven to succeed, and thrive on problem-solving and tackling challenges. These individuals have the capacity to either become stuck in repetitive patterns due to a fear of change or continuously strive for new horizons to conquer. They possess adaptability, systematic thinking, political acumen, and logical reasoning. However, relying too much on their intellect and neglecting their emotions can be their downfall.";
+        info7 ="Throughout the life of an eight, their parent of the same sex often becomes a source of problems, challenges, or unresolved issues. Capricorns play a significant role in the lives of eights, either becoming their best friends or their worst nightmares. Saturday holds special significance for individuals with this Birth Number, serving as their most favorable day of the week."
+    }
+    if (a==9){
+        info5 ="If you have a Birth Number of nine, you possess a strong inclination for engaging in debates, discussions, and disputes on almost any topic. Admitting to being wrong or misinformed is not something that comes easily to you. This can make you appear somewhat unapproachable, but your company is undeniably stimulating. You have a natural inclination towards fighting for what you believe in, bringing about reform, and engaging in combat, even if you sometimes become your own worst enemy in the process.";
+        info6 ="The life you lead tends to be perceived as larger than life by others, often leaving them wondering how you manage it all. As a survivor in the game of life, you have accumulated valuable knowledge, experience, and wisdom. It is now your mission to share and teach what you have learned. Developing your communication skills is crucial for you to become an inspiring and inspirational figure.";
+        info7 ="Individuals with a Birth Number of nine have connections to the zodiac signs of Aries and Scorpio, as well as the first and eighth houses of astrology. Exploring and studying the ancient art and science of astrology can be highly beneficial for you. Tuesday is considered your best day, and Mars holds significance as your ruling planet."
+    }
+    document.querySelector("#info5").innerHTML = info5;
+    document.querySelector("#info6").innerHTML = info6;
+    document.querySelector("#info7").innerHTML = info7;
+    document.querySelector("#bd").innerHTML = "Birth Date Number = " +  a;
+    var nall = na1 + na2;
+    var info9 ="";
+    if (a==1){
+        info9 ="You are a natural-born leader with a strong sense of individuality and ambition. You have the drive and determination to succeed in any endeavor you choose. Your self-confidence and assertiveness inspire others to follow your lead. With your strong willpower and focus, you can overcome obstacles and achieve great things.";
+    }
+    if (a==2){
+        info9 ="You have a talent for diplomacy and cooperation. You excel in partnerships and team environments where your sensitivity and intuition come into play. You are a natural peacemaker, able to find common ground and create harmony. Your nurturing and supportive nature make you a valuable ally and friend.";
+    }
+    if (a==3){
+        info9 ="You possess a vibrant and creative personality. You have a natural talent for self-expression through art, music, writing, or other creative outlets. Your infectious enthusiasm and sense of humor make you a captivating entertainer. You thrive in social settings and enjoy sharing your ideas and talents with others.";
+    }
+    if (a==4){
+        info9 ="You are a reliable and hardworking individual with a strong sense of responsibility. You excel in structured environments where your organizational skills and attention to detail shine. You are practical, disciplined, and dedicated to your work. Your dependable nature makes you a trusted and valued team member.";
+    }
+    if (a==5){
+        info9 ="You are a free spirit with a thirst for adventure and change. You crave excitement and variety in your life and are drawn to travel and new experiences. Your adaptability and resourcefulness allow you to navigate through life's challenges with ease. You embrace change and thrive in dynamic environments.";
+    }
+    if (a==6){
+        info9 ="You are a nurturing and compassionate individual who excels in caretaking roles. You have a strong sense of responsibility towards your loved ones and create harmonious and supportive environments. Your caring nature extends beyond your family, as you have a deep desire to help and serve others in your community.";
+    }
+    if (a==7){
+        info9 ="You possess a deep inner wisdom and a strong connection to spirituality. You are introspective and enjoy delving into philosophical and metaphysical topics. Your analytical mind and research skills make you an excellent investigator and problem solver. You seek knowledge and understanding in your quest for truth.";
+    }
+    if (a==8){
+        info9 ="You are driven by ambition and a desire for financial success. You possess strong leadership abilities and excel in positions of power and influence. Your organizational skills and business acumen allow you to make sound decisions and achieve your goals. You have the potential to amass wealth and create a significant impact.";
+    }
+    if (a==9){
+        info9 =" You are a compassionate humanitarian driven by a desire to make a positive difference in the world. You are passionate about social justice and advocacy work. Your deep empathy and understanding of others allow you to connect on a profound level. You seek to bring about positive change and leave a lasting legacy.";
+    }
+    document.querySelector("#info9").innerHTML = info9;
+    document.querySelector("#dn").innerHTML = "Destiny Number = " +  nall;
 }
+
 function openPage(pageName, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
     var i, tabcontent, tablinks;

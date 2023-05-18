@@ -7,14 +7,17 @@
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-
-      
+      <section class="showcase">
+        <video src="pexels-dmitry-varennikov-2735069-3240x2160-15fps.mp4" loop autoplay muted>
+       </section> 
     <div class="bg-img">
-      <button class="tablink t1" onclick="openPage('Home', this, '#ffbbbbe3')"id="defaultOpen">HOME</button>
-      <button class="tablink t2" onclick="openPage('News', this, '#888af3')" >YOUR CHART</button>
-      <button class="tablink t3" onclick="openPage('Contact', this, '#6b5ace')">MANIFESTATION</button>
+      <button class="tablink t1" onclick="openPage('Home', this, '#ffbbbbe3')"id="defaultOpen">INTRODUCTION</button>
+      <button class="tablink t2" onclick="openPage('News', this, '#dd7dad')" >YOUR CHART</button>
+      <button class="tablink t3" onclick="openPage('Contact', this, '#888af3')">MANIFESTATION</button>
       <button class="tablink t4" onclick="openPage('About', this, '#6b5ace')">CAREER PATH</button>
-
+      <button class="tablink t5" onclick="openPage('About', this, '#a02ed4')">LOGIN</button>
+      
+      <h1 class="bottom-left">NUMBHEALERS</h1>
         <form class="container">
           <h1> NUMEROLOGY CHART</h1>
           <label for="dob"><b>Date of birth</b></label>
@@ -26,22 +29,30 @@
           <button type="button" class="btn" onclick="xcalculate();openPage('News', this, '#888af3')">CALCULATE CHART</button>
         </form>
     </div>
-    <section><div>
+    <section>
+      <div>
       <div id="News" class="tabcontent">
         <h3>Your chart</h3>
-        <strong><p id="total"></p> </strong>
-        <p id="info1"></p>
-        <strong><p id="info2"></p></strong>
+        
         <strong><p id="na2"></p></strong>
         <p id="info3"></p>
         <strong><p id="na1"></p></strong> 
         <p id="info4"></p>
+        <strong><p id="dn"></p></strong> 
+        <p id="info9"></p>
         <strong><p id="bd"></p></strong> 
+        <p id="info5"></p>
+        <p id="info6"></p>
+        <p id="info7"></p>
+        <strong><p id="total"></p> </strong>
+        <p id="info1"></p>
+        <strong><p id="info2"></p></strong>
       </div>
       
       <div id="Home" class="tabcontent">
-        <h3>What is numerology ?</h3>
+        <h3>WHAT IS NUMEROLOGY ?</h3>
         <p>Some news this fine day!</p>
+       
       </div>
       
       <div id="Contact" class="tabcontent">
@@ -56,4 +67,5 @@
         
     </div></section>
 </body>
+
 <script src="s..js"></script>
