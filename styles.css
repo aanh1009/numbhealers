@@ -63,7 +63,7 @@ h1 {
   /* Add styles to the form container */
   .container {
     position: absolute;
-    right: 0;
+    right: 20px;
     margin : 1.5rem;
     margin-top : 8rem;
     max-width: 280px;
@@ -177,6 +177,8 @@ h3 {
   text-align: left;
   max-width : 60%;
   flex-shrink: 3;
+  font-size : 60px;
+  line-break: 15px;
 }
 @font-face {
   font-family: myFirstFont1;
@@ -192,9 +194,11 @@ h3 {
   font-size : 18px;
   font-family:myFirstFont1;
   font-weight: 200;
+  line-break : 10px;
 
 }
 
 h1 {
-  top:200px;
+  
+  top:170px;
 }
