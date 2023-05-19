@@ -243,32 +243,37 @@ function xcalculate (){
     document.querySelector("#info7").innerHTML = info7;
     document.querySelector("#bd").innerHTML = "Birth Date Number = " +  a;
     var nall = na1 + na2;
+    var nall1=0;
+    while(nall>= 10){
+        let nall1 = nall%10;
+        nall= parseInt(nall/10) + nall1;
+    }
     var info9 ="";
-    if (a==1){
+    if (nall==1){
         info9 ="You are a natural-born leader with a strong sense of individuality and ambition. You have the drive and determination to succeed in any endeavor you choose. Your self-confidence and assertiveness inspire others to follow your lead. With your strong willpower and focus, you can overcome obstacles and achieve great things.";
     }
-    if (a==2){
+    if (nall==2){
         info9 ="You have a talent for diplomacy and cooperation. You excel in partnerships and team environments where your sensitivity and intuition come into play. You are a natural peacemaker, able to find common ground and create harmony. Your nurturing and supportive nature make you a valuable ally and friend.";
     }
-    if (a==3){
+    if (nall==3){
         info9 ="You possess a vibrant and creative personality. You have a natural talent for self-expression through art, music, writing, or other creative outlets. Your infectious enthusiasm and sense of humor make you a captivating entertainer. You thrive in social settings and enjoy sharing your ideas and talents with others.";
     }
-    if (a==4){
+    if (nall==4){
         info9 ="You are a reliable and hardworking individual with a strong sense of responsibility. You excel in structured environments where your organizational skills and attention to detail shine. You are practical, disciplined, and dedicated to your work. Your dependable nature makes you a trusted and valued team member.";
     }
-    if (a==5){
+    if (nall==5){
         info9 ="You are a free spirit with a thirst for adventure and change. You crave excitement and variety in your life and are drawn to travel and new experiences. Your adaptability and resourcefulness allow you to navigate through life's challenges with ease. You embrace change and thrive in dynamic environments.";
     }
-    if (a==6){
+    if (nall==6){
         info9 ="You are a nurturing and compassionate individual who excels in caretaking roles. You have a strong sense of responsibility towards your loved ones and create harmonious and supportive environments. Your caring nature extends beyond your family, as you have a deep desire to help and serve others in your community.";
     }
-    if (a==7){
+    if (nall==7){
         info9 ="You possess a deep inner wisdom and a strong connection to spirituality. You are introspective and enjoy delving into philosophical and metaphysical topics. Your analytical mind and research skills make you an excellent investigator and problem solver. You seek knowledge and understanding in your quest for truth.";
     }
-    if (a==8){
+    if (nall==8){
         info9 ="You are driven by ambition and a desire for financial success. You possess strong leadership abilities and excel in positions of power and influence. Your organizational skills and business acumen allow you to make sound decisions and achieve your goals. You have the potential to amass wealth and create a significant impact.";
     }
-    if (a==9){
+    if (nall==9){
         info9 =" You are a compassionate humanitarian driven by a desire to make a positive difference in the world. You are passionate about social justice and advocacy work. Your deep empathy and understanding of others allow you to connect on a profound level. You seek to bring about positive change and leave a lasting legacy.";
     }
     document.querySelector("#info9").innerHTML = info9;
