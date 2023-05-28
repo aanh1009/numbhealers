@@ -131,9 +131,9 @@ h1 {
     padding: 100px 20px;
     height: 100%;
     position: absolute;
-    margin-left :17%;
-    margin-right : 17%;
-    padding-top: 300px;
+    margin-left :9%;
+    margin-right : 9%;
+    padding-top: 49vh;
   }
 
 section {
@@ -204,4 +204,76 @@ h3 {
 h1 {
   
   top:170px;
+}
+a {
+  color : white;
+  text-decoration: none;
+}
+.pe,.bd{
+  text-align: right;
+}
+.i1 {
+  margin-bottom: 1.5rem;
+  width : 63%}
+su {
+  position: relative;
+  float: right;
+}
+p[id=na2],p[id=dn] {
+  font-family:flower;
+  font-size: 23vh;
+  margin :5rem;
+  float: left;
+  size : 500px;
+  margin-top : 7rem;
+}
+h2 {
+  height : 10vh;
+  text-align: center;
+  font-family: dock11;
+  font-size: 9vh;
+  margin-bottom : 1.5rem;
+  margin-top:-7rem;  
+  letter-spacing: 12px;
+  color:transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text;
+  background-image: url(pexels-pixabay-36717.jpg);
+  background-size: 120%;
+  animation : bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+@font-face {
+  font-family: dock11 ;
+  src: url(heavy_dock11.otf);
+
+}
+@keyframes bg-animation {
+  0% {background-position: 0% 0%;}
+  50% {background-position: 100% 100%;}
+  100% {background-position: 0% 0%;}
+}
+
+strong {
+  font-size: 4.6vh;
+  font-family: fantasy;
+  font-weight: 600;
+  color:transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text;
+  background-image: url(pexels-eberhard-grossgasteiger-1624496.jpg);
+  background-size: 120%;
+  animation : bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+@font-face {
+  src: url(El\ Katana\ Alt\ Medium.ttf);
+  font-family: flower;
+}
+p[id=na1],p[id=bd] {
+  font-family:flower;
+  font-size: 23vh;
+  float: right;
+  text-align: right;
+  margin:2rem;
 }
