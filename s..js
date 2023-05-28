@@ -48,7 +48,8 @@ function xcalculate (){
     }
     document.querySelector("#info1").innerHTML = info1;
     document.querySelector("#info2").innerHTML = info2;
-    var d =document.querySelector("#name").value;
+    var d =document.querySelector("#name").value.toUpperCase();
+    //d=d.toUpper();
     var na1 = 0;
     var na2 = 0;
     for(x of d) 
@@ -152,7 +153,7 @@ function xcalculate (){
     if (na2 == 9){
         info3 ="Knowing that you have improved humanity's situation gives you the most fulfilment. You hold the highest standards of ideals. You're all for details and work to create an imaginary world, to improve everyone's situation in life, and to achieve personal perfection. You've been studying human nature all of your life."
     }
-    document.querySelector("#na1").innerHTML = "Personality number = " + na1 ;
+    document.querySelector("#na1").innerHTML =  na1 ;
     document.querySelector("#info3").innerHTML = info3;
     
     
@@ -184,7 +185,7 @@ function xcalculate (){
     if (na1 == 9){
         info4 ="You have an impressive and aristocratic bearing. No matter how tall you are, you appear noble and upright. You are very much in control of the image you send out to others."
     }
-    document.querySelector("#na2").innerHTML = "Soul urge number = " + na2 ;
+    document.querySelector("#na2").innerHTML =  na2 ;
     document.querySelector("#info4").innerHTML = info4;
 
     while(a>= 10){
@@ -241,7 +242,7 @@ function xcalculate (){
     document.querySelector("#info5").innerHTML = info5;
     document.querySelector("#info6").innerHTML = info6;
     document.querySelector("#info7").innerHTML = info7;
-    document.querySelector("#bd").innerHTML = "Birth Date Number = " +  a;
+    document.querySelector("#bd").innerHTML =   a;
     var nall = na1 + na2;
     var nall1=0;
     while(nall>= 10){
@@ -277,7 +278,8 @@ function xcalculate (){
         info9 =" You are a compassionate humanitarian driven by a desire to make a positive difference in the world. You are passionate about social justice and advocacy work. Your deep empathy and understanding of others allow you to connect on a profound level. You seek to bring about positive change and leave a lasting legacy.";
     }
     document.querySelector("#info9").innerHTML = info9;
-    document.querySelector("#dn").innerHTML = "Destiny Number = " +  nall;
+    document.querySelector("#dn").innerHTML =   nall;
+
 }
 
 function openPage(pageName, elmnt, color) {

@@ -18,7 +18,7 @@
       <button class="tablink t5" onclick="openPage('About', this, '#a02ed4')">LOGIN</button>
       
       <h1 class="bottom-left">
-        NUMBHEALERS
+        NUMBHEALER
         <p class="subtext">Here, whispers from the universe converge with the enigmatic language of numbers. Delve into the secrets they hold, unravelling hidden pathways to healing and career enlightenment. Surrender to the cosmic dance, where destiny's embrace awaits those who dare to listen. Embark on this enigmatic voyage, guided by the celestial forces that shape our existence. The universe beckons. Will you answer ?</p>
       </h1>
       
@@ -30,24 +30,33 @@
           <input type="number" min="1900" max="2050" id="year" placeholder="Year" required/>
           <label for="name"><b>Name</b></label>
           <input type="text" placeholder="WRITE YOUR NAME IN CAPS" id="name" required/>
-          <button type="button" class="btn" onclick="xcalculate();openPage('News', this, '#888af3')">CALCULATE CHART</button>
+          <button type="button" class="btn" onclick="xcalculate();openPage('News', this, '#4b0dbd91');document.getElementById('News').scrollIntoView()">CALCULATE CHART</button>
         </form>
     </div>
     <section>
       <div>
       <div id="News" class="tabcontent">
-        <h3>Your chart</h3>
-        
-        <strong><p id="na2"></p></strong>
-        <p id="info3"></p>
-        <strong><p id="na1"></p></strong> 
-        <p id="info4"></p>
-        <strong><p id="dn"></p></strong> 
+        <h2>YOUR CHART</h4>
+        <div class="su">
+        <p id="na2"></p>
+        <strong>Soul urge number</strong>
+        <p id="info3"></p></div>
+        <img src="https://media.istockphoto.com/id/1385038554/vector/mystical-poster-for-numerology-astrology-and-future-prediction-two-palms-of-a-hand-with-an.jpg?s=612x612&w=0&k=20&c=98sRyQqKaR5zs_Gu91Z5GqgHdggZ6wfyes27R7F8re8=" class="i1"/>
+        <div class='pe'>
+          <p id="na1"></p>
+        <strong>Personality number</strong> 
+        <p id="info4"></p></div>
+        <div class="dn">
+          <p id="dn"></p>
+          <strong>Destiny number</strong> 
         <p id="info9"></p>
-        <strong><p id="bd"></p></strong> 
+      </div>
+        <div class="bd">
+          <p id="bd"></p>
+          <strong>Birth date number</strong> 
         <p id="info5"></p>
         <p id="info6"></p>
-        <p id="info7"></p>
+        <p id="info7"></p></div>
         <strong><p id="total"></p> </strong>
         <p id="info1"></p>
         <strong><p id="info2"></p></strong>
